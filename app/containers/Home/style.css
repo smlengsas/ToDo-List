@@ -14,7 +14,7 @@
 }
 
 .listItem {
-  background:#CCCCCC;
+  background:#C0C0C0;
   padding:15px;
   margin:10px;
   border-radius:5px;
@@ -37,16 +37,16 @@
 .todoButton {
   padding:10px;
   margin-top:10px;
-  background:#00CCFF;
+  background:#C39BD3;
   border:none;
   border-radius:5px;
   font-size:1.1em;
 }
 
 .todoButton:hover {
-  background:#00DDFF;
+  background:#ABEBC6;
 }
 
 .todoButton:active {
-  background:#00AAFF;
+  background:#82E0AA;
 }
