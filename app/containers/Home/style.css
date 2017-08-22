@@ -11,14 +11,18 @@
   display:flex;
   flex-direction:column;
   margin: 0 auto;
+  cursor:pointer;
 }
 
 .listItem {
-  background:#C0C0C0;
-  padding:15px;
+  background:#C39BD3;
+  padding:20px;
   margin:10px;
-  border-radius:5px;
-  font-variant:small-caps;
+  border-radius:50px;
+  /*font-variant:small-caps;*/
+  font-family:'Oswald', sans-serif;
+  color:#FDFEFE;
+  font-size:1.3em;
 }
 
 .inputContainer {
@@ -28,25 +32,65 @@
   flex-direction:column;
 }
 
+.resetButton {
+  padding:10px;
+  width:100px;
+  margin-top:10px;
+  background:#A3E4D7;
+  border-width:thin;
+  border-color:inherit;
+  border-radius:5px;
+  font-size:1em;
+  color:#5B2C6F;
+  font-family:'Oswald', sans-serif;
+  cursor:pointer;
+}
+
 .todoInput {
   padding:10px;
   font-size:1.1em;
   margin-top:30px;
+  font-family:'Oswald', sans-serif;
+}
+
+.todoInput:focus {
+  outline: none;
 }
 
 .todoButton {
   padding:10px;
   margin-top:10px;
-  background:#C39BD3;
-  border:none;
+  background:#48C9B0;
+  border-width:medium;
+  border-color:inherit;
   border-radius:5px;
-  font-size:1.1em;
+  font-size:2em;
+  color:#5B2C6F;
+  text-decoration-color:#48C9B0;
+  font-family:'Oswald', sans-serif;
+  cursor:pointer;
+}
+
+.todoButton:focus {
+  outline: none;
+}
+
+.resetButton:hover {
+  background:#ABEBC6;
 }
 
 .todoButton:hover {
   background:#ABEBC6;
 }
 
+.resetButton:active {
+  background:#1ABC9C;
+}
+
 .todoButton:active {
-  background:#82E0AA;
+  background:#1ABC9C;
+}
+
+.resetButton:focus {
+  outline: none;
 }
